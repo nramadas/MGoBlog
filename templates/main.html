@@ -1,9 +1,31 @@
 <!doctype html>
 <html>
     <head>
+        <title>MGoBlog | Mobile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <style>
+            body {
+                font-family: "Open Sans", sans-serif;
+            }
 
+            #container {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        </style>
+        <link rel="stylesheet" href="/static/css/font-awesome.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
     </head>
     <body>
-
+        <div id="container"></div>
+        <script src="/static/bin/App.js"></script>
+        <script>
+            document.body.onload = function() {
+                window.createApp(document.getElementById("container"))
+            }
+        </script>
     </body>
 </html>

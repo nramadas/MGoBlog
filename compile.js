@@ -6,7 +6,7 @@ var compiler = webpack({
     context: path.resolve(__dirname, "./lib"),
     entry: "./CreateApp.js",
     output: {
-        path: path.resolve(__dirname, "./bin"),
+        path: path.resolve(__dirname, "./static/bin"),
         filename: "App.js",
         sourceMapFilename: "[name].map",
     },
