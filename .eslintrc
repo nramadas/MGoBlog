@@ -33,7 +33,6 @@
         "no-var": 2,                                // enforce using let or const
         "react/jsx-curly-spacing": 2,               // enforce no extraneous spacing in curlies
         "react/jsx-no-duplicate-props": 2,          // enforce no duplicate props
-        "react/no-did-mount-set-state": 2,          // enforce no setting state in componentDidMount
         "react/no-did-update-set-state": 2,         // enforce no setting state in componentDidUpdate
         "react/no-unknown-property": 2,             // enforce not confusing jsx w/ html
         "react/self-closing-comp": 2,               // enforce self-closing tags for components w/o children
